@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    .submit-container {
+            padding:0 100px;
+            margin-top: 0px;
+        }
+    </style>
 </head>
 <body>
     昵称：<input type="text" name="username" id=""><br>
@@ -13,17 +19,20 @@
         <select name="email_domain">
             <option value="qq.com">qq.com</option>
         </select><br>
-        性别：
+    性别：
         <input type="radio" name="gender" value="男">男
         <input type="radio" name="gender" value="女">女<br>
-        爱好：
+    爱好：
         <input type="checkbox" name="hobby" value="旅游">旅游
         <input type="checkbox" name="hobby" value="摄影">摄影
         <input type="checkbox" name="hobby" value="运动">运动<br>
-        个人简介：<br>
-        <textarea name="intro" cols="30" rows="5"></textarea><br>
-        上传个人照片：<br>
-        <input type="file" name="photo"><br><br>
-        <input type="submit" value="立即注册">
+    个人简介：<br>
+        <textarea name="intro" cols="40" rows="8"></textarea><br>
+    上传个人照片：<br>
+        <input type="file" name="photo"><br>
+        <hr style="border: none; border-top: 1px solid #000; width: 290px; margin: 10px 0;">
+        <div class="submit-container">
+            <input type="submit" value="立即注册">
+        </div>
 </body>
 </html>
