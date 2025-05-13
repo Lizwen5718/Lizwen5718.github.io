@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>温馨简历</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+      font-family: "Helvetica Neue", "Noto Sans SC", sans-serif;
+    }
+    .resume {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 40px;
+      border-radius: 10px;
+    }
+
+    .left {
+        flex: 0.4;
+        background-color: #e3f6f8; 
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    .right {
+      flex: 0.6;
+    }
+
+    .avatar {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      margin: 20px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    .subtitle {
+      color: #888;
+      margin-bottom: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #1cb3e1;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    .small-title {
+      font-weight: bold;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .info p {
+      margin: 5px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eee;
+      border-radius: 4px;
+      padding: 6px 9px;
+      font-size: 13px;
+      margin: 5px;
+      transition: all 0.3s ease;
+      cursor: default;
+    }
+
+    .tag:hover {
+      background: #1cb3e1;
+      color: white;
+      transform: scale(1.05);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .left img:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="left">
+      <img src="cat.jpg" alt="头像" class="avatar">
+      <h1>温馨</h1>
+      <section class="info">
+        <h2>基本信息</h2>
+        <p><strong>出生年月:</strong> 2005.07</p>
+        <p><strong>邮箱:</strong> lizwen5718@outlook.com</p>
+        <p><strong>手机:</strong> 158 2170 5718</p>
+        <p><strong>地址:</strong> xxxxxxxxx</p>
+      </section>
+
+      <section>
+        <h2>技能专长</h2>
+        <p class="small-title">语言：</p>
+        <p>CET-4(587)、CET-6(587)</p>
+
+        <p class="small-title">软件技能：</p>
+        <div>
+            <span class="tag">Pycharm</span>
+            <span class="tag">Visual Studio</span>
+            <span class="tag">VS code</span>
+            <span class="tag">Matlab</span>
+            <span class="tag">Excel</span>
+            <span class="tag">Word</span>
+            <span class="tag">PowerPoint</span>
+            <span class="tag">Visio</span>
+            <span class="tag">Jupyter Notebook</span>
+            <span class="tag">Photoshop</span>
+        </div>
+    </section>
+    </div>
+
+    <div class="right">
+        <section>
+            <h2>教育背景</h2>
+            <p><strong>上海对外经贸大学</strong></p>
+            <p>人工智能专业&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>2023.09 - 2025.05</strong></p>
+            <p>GPA 3.237/4&nbsp;&nbsp;专业排名：16/97</p>
+            <p>主修课程：计算机科学导论(87)、高等代数(91)、概率论(83)、操作系统(86)、数据库原理与设计(83)、复变函数与积分变换(82)、</p>
+        </section>
+
+        <section>
+            <h2>获奖经历</h2>
+            <ul>
+                <li>2023—2024 第二学期：优秀学生奖学金三等奖</li>
+            </ul>
+            <ul>
+                <li>2024—2025 第一学期：优秀学生奖学金三等奖</li>
+            </ul>
+            <ul>
+                <li>2024.05：全国大学生英语竞赛 二等奖</li>
+            </ul>
+            <ul>
+                <li>2025.05：美国大学生数学建模竞赛 MCM S 奖</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>实践活动</h2>
+            <p class="small-title">2024.06 - 2024.11&nbsp;&nbsp;&nbsp;"访万企，读中国"社会调查项目&nbsp;&nbsp;二等奖</p>
+            <ul>
+              <li>实地调研4家企业进行走访拍摄工作</li>
+            </ul>
+            <p class="small-title">2024.11 - 2025.01&nbsp;&nbsp;&nbsp;美国大学生数学建模竞赛&nbsp;&nbsp;S奖</p>
+            <ul>
+              <li>负责数学建模以及编程部分</li>
+            </ul>
+        </section>
+    </div>
+</div>
+</body>
+</html>
